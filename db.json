@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+
+"operadores":[
+  {
+    "id":1,
+      "codigoOperador": 10102,
+      "placa": "BBA654",
+      "tid": "E280689020005005CA01D188",
+      "epc": "F0000012A80100000001351D",
+      "categoria": "A",
+      "estado": 1,
+      "estadoSaldo": 1,
+      "saldo": 25000,
+      "saldoBajo": 0,
+      "numeroCliente": "469",
+      "modalidad": "PrepagoSimple",
+      "version": "2020-07-29T18:25:55.683"
+  },
+  {
+    "id":2,
+      "codigoOperador": 10102,
+      "placa": "23ldr",
+      "tid": "E280689020005005CA01D188",
+      "epc": "F0000012A80100000001351D",
+      "categoria": "C1",
+      "estado": 1,
+      "estadoSaldo": 1,
+      "saldo": 25000,
+      "saldoBajo": 0,
+      "numeroCliente": "373",
+      "modalidad": "PrepagoSimple",
+      "version": "2020-07-29T18:25:55.683"
+  },
+  {
+    "id":3,
+      "codigoOperador": 10102,
+      "placa": "fdf323",
+      "tid": "E280689020005005CA01D188",
+      "epc": "F0000012A80100000001351D",
+      "categoria": "C2",
+      "estado": 1,
+      "estadoSaldo": 1,
+      "saldo": 25000,
+      "saldoBajo": 0,
+      "numeroCliente": "363",
+      "modalidad": "PrepagoSimple",
+      "version": "2020-07-29T18:25:55.683"
+  }
+]
+
+}

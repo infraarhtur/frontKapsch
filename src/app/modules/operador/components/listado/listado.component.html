@@ -1,0 +1,42 @@
+<p>listado operadores!</p>
+
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th scope="col" style="width: 100px;">#</th>
+
+      <th scope="col">versión</th>
+      <th scope="col">Codigo Operador</th>
+      <th scope="col">Placa</th>
+      <th scope="col">Categoria</th>
+      <th scope="col">Estado</th>
+      <th scope="col">Saldo</th>
+
+      <th scope="col">Número Cliente</th>
+      <th scope="col">Modalidad</th>
+
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor= "let item of operadores ;let indice=index" >
+      <th scope="row">{{indice}}</th>
+
+
+      <td>{{item.version | date}}</td>
+      <td>{{item.codigoOperador}}</td>
+      <td>{{item.placa}}</td>
+      <td>{{item.categoria}}</td>
+      <td>{{item.estado}}</td>
+      <td>{{item.saldo | number}}</td>
+
+      <td>{{item.numeroCliente}}</td>
+      <td>{{item.modalidad}}</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
